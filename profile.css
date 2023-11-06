@@ -1,0 +1,300 @@
+html , body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    background-color:#000000;
+
+}
+.header{
+    position: fixed;
+    background-color:#2e2a2a;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #333;
+}
+.name{
+    
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.name h1{
+    font-size: 2.5vw;
+    color: antiquewhite;
+    align-self: center;
+}
+.profile{
+    
+    width: 80%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.profile a{
+    font-size: 2em;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.mode{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+}
+.mode a{
+    color:antiquewhite;
+    text-decoration: none;
+}
+#night{
+    display: none;
+}
+.nav{
+   
+    display: flex;
+    width: 49%;
+    justify-content: space-around;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: antiquewhite;
+    align-self: center;
+}
+.nav i{
+
+    display: none;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height:calc(100% - 80px);
+}
+.img{
+    display: flex;
+    width: 50%;
+    height: auto;
+    
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    display: flex;
+    width: 50%;
+}
+.name1{
+    align-self: center;
+    width: 50%;
+}
+.name1 h1{
+    color: darkkhaki;
+    font-size: 3vw;
+    
+}
+.name1 span{
+    
+    color: rgb(204, 9, 119);
+    font-size: 6vw;
+}
+.name1 p{
+    color: mediumpurple;
+    font-size: 2vw;
+    letter-spacing: 0.8vw;
+}
+.intro h1{
+    color: rgb(222, 192, 107);
+    letter-spacing: 0.2;
+}
+.intro{
+    padding: 2vw;
+    margin: 1vw;
+    border: 2px solid;
+    border-radius: 2vw;
+    border-color:rgba(147, 168, 106, 0.89);
+    color: bisque;
+    height: 30vh;
+    letter-spacing: 0.1vw;
+}
+.skills h1{
+    color: rgb(19, 160, 139);
+    letter-spacing: 0.2;
+}
+.skills{
+    padding: 2vw;
+    margin: 1vw;
+    border: 2px solid;
+    border-radius: 2vw;
+    border-color: rgba(147, 168, 106, 0.89);
+    color: bisque;
+    height: 30vh;
+    letter-spacing: 0.1vw;
+}
+.learn{
+    display: flex;
+    justify-content: space-around;
+    height: 20vw;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.code{
+    display: flex;
+    color:rgb(214, 197, 100);
+    width: 17% ;
+    height:20vw ;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    font-weight: 500;
+    font-family: monospace;
+    border: 3px solid;
+    border-radius: 2vw;
+    border-color: rgb(58, 83, 83);
+}
+.work{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vw;
+}
+.projects{
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(142, 112, 127);
+    font-size: 4vw;
+    font-weight: 600;
+    font-family: monospace ;
+    border: 3px dashed;
+    border-radius: 0.9vw;
+    padding: 1vw;
+    border-color: rgb(58, 83, 83);
+
+}
+.form{
+    display: flex;
+    width: 50vw;
+    margin-left: 1vw;
+    padding: 0vw 4vw 4vw 4vw;
+    border: 2px solid rgb(64, 66, 67);
+    border-radius: 4%;
+}
+.form h1{
+    color: burlywood;
+    font-size: 4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form p{
+    color: rgb(213, 197, 185);
+    font-size: 2vw;
+}
+input[type="text"] , input[type="email"] {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    height: 1vh;
+    width: 30vw;
+    padding: 1.5vw;
+}
+textarea {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    height: 3vh;
+    width: 30vw;
+    padding: 1.5vw;
+    resize: none;
+}
+input[type="submit"]{
+    height: 5vh;
+    width: 12vw;
+    display: flex;
+    color: rgb(228, 163, 89);
+    background-color: rgb(20, 43, 45);
+    border: 0px;
+    position: relative;
+    top: 2%;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    color:rgb(55, 75, 189)
+}
+.footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0%;
+}
+.footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer a:hover{
+    color: aquamarine;
+}
+
+#day:hover{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .name h1{
+        align-self: center;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .nav a{
+        display: none;
+        
+    }
+    .nav i{
+        display: inline;
+        align-self: center;
+        color:antiquewhite;
+    }
+    .nav i:hover{
+        display: list-item;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .name1 h1{
+        font-size: 10vw;
+    }
+    .name1 p{
+        font-size: 4vw;
+    }
+    .main{
+        overflow: hidden;
+    }
+  
+}
